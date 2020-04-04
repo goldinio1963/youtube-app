@@ -1,0 +1,30 @@
+div {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.show, .submitButtton :hover{
+    text-align: center;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#pervPage, #nextPage {
+    color: white;
+}
+
+
+#nextPage{
+    background-color: darkblue;
+}
+
+#pervPage {
+    background-color: darkred;
+}
+
+#pervPage, #nextPage :hover {
+    opacity: 0.7;
+}
